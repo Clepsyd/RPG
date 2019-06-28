@@ -64,5 +64,9 @@ if __name__ == "__main__":
     player2 = Character("Joe")
     for _ in range(10):
         player1.level_up()
-        print(player1.level, player1.defense, player1.protection)
+        print(
+            f"""lvl: {player1.level},\
+            def: {player1.defense},\
+            protection: {player1.protection}"""
+            )
 

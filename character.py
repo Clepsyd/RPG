@@ -55,9 +55,9 @@ class Character:
             if damage < 0:
                 damage = 0
             target.hp -= damage
-            return print(f"{target.name} is hit : {damage} dmg")
+            print(f"{target.name} is hit : {damage} dmg")
         else:
-            return print("Missed")
+            print("Missed")
 
 if __name__ == "__main__":
     player1 = Character("Billy")
